@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="idex.css">
+    <link href="index.css">
+    <title>Inicio</title>
 
-    
 </head>
-<body>
-    <label>
-        <section>
-            <table nombre ="Tabla notas">
-                <h1>Tabla de notas</h1>
-                <br>
-                <label type="text"></label>
-                <h3>Codigo del estudiante</h3>
-                <h3>Nombre</h3>
-                <h3>Primer 20%</h3>
-                <h3>Segundo 20%</h3>
-                <h3>Tercer 20%</h3>
-                <h3>Definitiva</h3>
-                <h3>Estado</h3>
-            </table>
-        </section>
-    </label>
+<h1> Tabla de notas</h1>
+<table id="tabla de notas" borde="1">
+    <form>
+        <th>Codigo del estudiante</th>
+        <th>Nombre</th>
+        <th>Primer 20%</th>
+        <th>Segundo 20%</th>
+        <th>Tercer 20%</th>
+        <th>Final 40%</th>
+        <th>Definitiva</th>
+        <th>Estado</th>
 
+        <tbody url="java.js">
 
+            <th><input type="number" id="codigo estudiante" max="11"></input></th>
+            <th><input type="number" id="Primera nota" min="0" max="5" required></input></th>
+            <th><input type="number" id="Segunda nota" min="0" max="5" required></input></th>
+            <th><input type="number" id="tercera nota" min="0" max="5" required></input></th>
+            <th><input type="number" id="Nota Final" min="0" max="5" required></input></th>
+     </body>
+     
+    </form>
+</table>
 
-    
-</body>
 </html>

@@ -11,6 +11,14 @@ label {
 }
 
 table{
+
+        border-collapse: separate;
+        box-sizing: border-box;
+        text-indent: initial;
+        unicode-bidi: isolate;
+        border-spacing: 2px;
+        border-color: rgb(21, 252, 98);
+        background-color: aquamarine;
+        border: 1vw;
     
-    background-color: beige;
 }
